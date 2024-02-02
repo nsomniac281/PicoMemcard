@@ -14,7 +14,8 @@
 /* Global Configuration */
 #include "config.h"
 /* LCD Control*/
-LCD_0in96.h
+#include "LCD_0IN96.h"
+#include "DEV_Config.h"
 
 
 bool tud_mount_status = false;
